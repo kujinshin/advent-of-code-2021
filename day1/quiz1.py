@@ -10,6 +10,6 @@ increments = 0
 data = [int(x) for x in data]
 
 for i in range(1, len(data)):
-    increments += int(data[i] > data[i-1])
+    increments += int(data[i] > data[i - 1])
 
 print(increments)

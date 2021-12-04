@@ -6,7 +6,6 @@ data = []
 with open(input_file, "r") as f:
     data = [x.rstrip() for x in f.readlines()]
 
-
 horizontal_position = 0
 depth = 0
 aim = 0
@@ -24,4 +23,3 @@ for row in data:
         aim -= value
 
 print(horizontal_position * depth)
-

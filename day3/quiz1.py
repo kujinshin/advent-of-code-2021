@@ -14,7 +14,7 @@ for number in data:
         if number[i] == "1":
             bits[i] += 1
 
-gamma_rate = [str(int(int(x) > data_count//2)) for x in bits]
+gamma_rate = [str(int(int(x) > data_count // 2)) for x in bits]
 gamma_rate = int("".join(gamma_rate), 2)
 
 mask = int("".join(["1" for _ in range(bit_count)]), 2)
