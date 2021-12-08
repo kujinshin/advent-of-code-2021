@@ -10,7 +10,7 @@ for _ in range(day):
     state0 = states[0]
 
     for i in range(1, 9):
-        states[i-1] = states[i]
+        states[i - 1] = states[i]
 
     states[8] = state0
     states[6] += state0
